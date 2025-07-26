@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>London Logic Forum - 17 July 2019 - Abstract</title>
+<link rel="stylesheet" href="../default.css" type="text/css" />
+</head>
+<body>
+<table border="0">
+<tr>
+<td valign="top" align="right">
+<img src="../images/llf.gif" width="104" height="136" alt="[LLF logo]" /><img src="../images/strut.gif" width="20" height="1" alt="" /><br />
+<img src="../images/strut.gif" width="124" height="36" alt="" /><br />
+<a href="../">[intro&nbsp;and&nbsp;news]</a><br />
+<a href="../people.html">[people]</a><br />
+<a href="../visitors.html">[visitors]</a><br />
+<a href="../seminars.html">[seminars]</a><br />
+<a href="../links.html">[related&nbsp;links]</a><br />
+</td>
+<td>
+<img src="../images/strut.gif" width="36" height="1" alt="" />
+</td>
+<td valign="top">
+
+<!-- begin of contents -->
+
+<h2>Robin Hirsch</h2>
+
+<h3>Demonic operators</h3>
+
+  <p>
+Joint work with Szabolcs Mikul&aacute;s and Tim Stokes  
+</p>    
+
+  <p>
+Given two binary relations <I>r</I>, <I>s</I> we may define their demonic composition
+  </p>
+
+  <p align="center">
+<I>r*s</I> = {<I>(x, y)</I>: &exist;<I>z</I> (<I>(x,
+  z)</I>&isin;<I>r</I> and <I>(z, y)</I>&isin;<I>s</I>) and &forall;<I>w</I>
+  (<I>(x, w)</I>&isin;<I>r</I> &rarr; <I>w</I>&isin;<I>dom(s)</I>}.
+  </p>
+
+  <p>
+If <I>s</I> is left-total, or if <I>r</I> is a partial function, then demonic
+  composition coincides with ordinary composition.
+One motivation comes from reasoning about total correctness for
+  non-deterministic programs - the demonic composition <I>r*s</I>
+  includes a pair <I>(x, y)</I> of states, if there is a computation
+  of <I>r</I> followed by a computation of <I>s</I> going from
+  <I>x</I> to <I>y</I>, but moreover every computation of <I>r</I>
+  from <I>x</I> leads to a state where <I>s</I> can be executed.
+  </p>
+
+  <p>
+A second demonic operator is demonic join. The demonic join of two
+  binary relations <I>r</I>, <I>s</I> is the binary relation whose domain is the
+  intersection of the domains of <I>r</I> and <I>s</I>, and is the same as <I>r</I>&cup;<I>s</I> when left-restricted to this domain. Demonic refinement may be
+  defined from demonic join. We will look for finite axiomatisations
+  of the representation classes of various signatures including
+  demonic operators and relations.
+  </p>
+
+  <p>
+For example, we show that the representation class for the signature with demonic composition and ordinary inclusion is not finitely axiomatisable, whereas the representation class for the signature with demonic composition and demonic refinement is finitely axiomatisable. I may also consider demonic signatures including the domain operator.
+  </p>
+
+
+<!-- end of contents -->
+
+</td>
+</tr>
+</table>
+</body>
+</html>
+
